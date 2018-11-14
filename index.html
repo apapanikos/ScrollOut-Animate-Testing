@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scroll Out Testing</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    <section>
+        <h1 class="flipInX">Hey, what's up?</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero non quibusdam vitae excepturi dolores porro molestias error harum velit doloremque. Tenetur, debitis perferendis pariatur totam quae ab illum! Quae, porro.</p>
+    </section>
+    <section>
+        <h1 data-scroll>Hey, what's up? I came from the West!</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero non quibusdam vitae excepturi dolores porro molestias error harum velit doloremque. Tenetur, debitis perferendis pariatur totam quae ab illum! Quae, porro.</p>
+    </section>
+    <section data-scroll>
+        <h1>Hey, what's up? I came from the East!</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero non quibusdam vitae excepturi dolores porro molestias error harum velit doloremque. Tenetur, debitis perferendis pariatur totam quae ab illum! Quae, porro.</p>
+    </section>
+    <section>
+        <h1 class="bounceIn">Hey, what's up?</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero non quibusdam vitae excepturi dolores porro molestias error harum velit doloremque. Tenetur, debitis perferendis pariatur totam quae ab illum! Quae, porro.</p>
+    </section>
+
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+    <script>
+        ScrollOut({
+          threshold: .5
+        });
+    </script>
+
+</body>
+</html>
